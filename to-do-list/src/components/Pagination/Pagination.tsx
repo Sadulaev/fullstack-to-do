@@ -30,7 +30,7 @@ const Pagination = (props: Props) => {
       <div className={styles.currentPageButton}>
         <Button onClick={() => {}}>{currentPage}</Button>
       </div>
-      {lastPage && currentPage < lastPage && (
+      {!!lastPage && currentPage < lastPage && (
         <Button
           variant="secondary"
           onClick={() => onChangePage(currentPage + 1)}
@@ -38,7 +38,7 @@ const Pagination = (props: Props) => {
           {currentPage + 1}
         </Button>
       )}
-      {lastPage && currentPage + 1 < lastPage && (
+      {!!lastPage && currentPage + 1 < lastPage && (
         <div className={styles.firstPageButton}>
           {currentPage + 2 < lastPage && <span>...</span>}
           <Button variant="secondary" onClick={() => onChangePage(lastPage)}>

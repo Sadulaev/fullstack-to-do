@@ -70,7 +70,7 @@ const TodoList = () => {
       }));
     }
     return todos.data.list;
-  }, [!!auth.data, !!todos.data.list.length]);
+  }, [!!auth.data, !!todos.data.list.length, todos.getTodosStatus, todos.updateTodoStatus]);
 
   return (
     <div className={styles.container}>
