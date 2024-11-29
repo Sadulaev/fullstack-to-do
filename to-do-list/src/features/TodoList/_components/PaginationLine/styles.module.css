@@ -1,0 +1,13 @@
+.paginationLine {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  position: relative;
+}
+
+.paginationLine > div {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+}

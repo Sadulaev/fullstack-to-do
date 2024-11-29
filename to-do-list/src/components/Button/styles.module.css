@@ -1,0 +1,59 @@
+.btn {
+  cursor: pointer;
+  outline: 0;
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  transition:
+    color 0.15s ease-in-out,
+    background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
+}
+
+.btn:disabled {
+  background-color: darkcyan !important;
+  pointer-events: none;
+}
+
+.noEvents {
+  background-color: darkcyan !important;
+  pointer-events: none;
+}
+
+.btnPrimary {
+  background-color: #0d6efd;
+  border: 1px solid #0d6efd;
+  padding: 6px 12px;
+  color: #fff;
+  border: 1px solid transparent;
+}
+
+.btnSecondary {
+  background-color: transparent;
+  padding: 6px 12px;
+  color: #0d6efd;
+  border-color: #0d6efd;
+  border: 1px solid #0d6efd;
+}
+
+.btnPrimary:hover {
+  color: #0d6efd;
+  background-color: transparent;
+  border-color: #0d6efd;
+}
+
+.btnSecondary:hover {
+  color: #fff;
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+.loaderContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

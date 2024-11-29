@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  gap: 1rem;
+}
+
+.container button {
+  font-weight: 700;
+}
+
+.firstPageButton {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-end;
+}
+
+.firstPageButton span {
+  font-size: x-large;
+}
+
+.currentPageButton {
+  pointer-events: none;
+}

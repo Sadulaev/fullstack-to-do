@@ -1,0 +1,10 @@
+.searchLine {
+  width: 100%;
+  display: flex;
+  justify-content: right;
+}
+
+.searchLine input,
+.searchLine select {
+  width: 30rem;
+}

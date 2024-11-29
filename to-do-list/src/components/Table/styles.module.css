@@ -1,0 +1,50 @@
+.commonTable {
+  width: 100%;
+  table-layout: fixed;
+}
+
+.tableHeader {
+  background-color: #0d6efd;
+}
+
+.tableContent {
+  min-height: 188px;
+  max-height: 300px;
+  overflow-x: auto;
+  margin-top: 0px;
+  border: 1px solid #303030;
+  border-top: none;
+}
+
+.emptyListBlock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 150px;
+}
+
+.tableHeader th {
+  padding: 20px 15px;
+  text-align: left;
+  font-weight: 500;
+  font-size: 1.25rem;
+  color: #fff;
+}
+
+.tableContent td {
+  padding: 0.5rem;
+  text-align: left;
+  vertical-align: middle;
+  font-weight: 300;
+}
+
+.tableContent tr {
+  height: 60px;
+}
+
+.rows p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin: 0;
+}

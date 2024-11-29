@@ -1,0 +1,26 @@
+.container {
+  box-shadow:
+    #0d6efd19 0px 4px 8px -2px,
+    #0d6efd19 0px 0px 0px 1px;
+  width: 30rem;
+  margin: 2rem auto;
+  padding: 3rem 1rem;
+}
+
+.container form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.container form h1 {
+  text-align: center;
+  margin: 0;
+  color: #0d6efd;
+}
+
+.container form p {
+  margin: -1rem 0 0 0;
+  color: #a0522d;
+  font-size: 0.75rem;
+}
